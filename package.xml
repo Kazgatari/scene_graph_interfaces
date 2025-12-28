@@ -3,20 +3,16 @@
 <package format="3">
   <name>scene_graph_interfaces</name>
   <version>0.0.1</version>
-  <description>ROS2 interface definitions for scene graph processing</description>
+  <description>Python interface definitions for scene graph processing</description>
   <maintainer email="your-email@example.com">Your Name</maintainer>
   <license>Apache License 2.0</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  
-  <build_depend>rosidl_default_generators</build_depend>
-  <exec_depend>rosidl_default_runtime</exec_depend>
-  <member_of_group>rosidl_interface_packages</member_of_group>
+  <buildtool_depend>ament_python</buildtool_depend>
 
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
 
   <export>
-    <build_type>ament_cmake</build_type>
+    <build_type>ament_python</build_type>
   </export>
 </package>
