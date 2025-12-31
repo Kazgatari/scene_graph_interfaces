@@ -18,4 +18,10 @@ setup(
     description='Python interface definitions for scene graph processing',
     license='Apache License 2.0',
     tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            'visual_interface_node = scene_graph_interfaces.visual_interface.ros2_visual_interface_node:main',
+            'vlm_service_node = scene_graph_interfaces.vlm_service.ros2_vlm_service_node:main',
+        ],
+    },
 )

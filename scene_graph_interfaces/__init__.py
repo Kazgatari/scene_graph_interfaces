@@ -1,8 +1,10 @@
 """Scene Graph Interfaces Package
 
-Python-based interface definitions for scene graph processing with object detection and segmentation.
+ROS2 interface definitions for scene graph processing with object detection and segmentation.
+Includes custom message types and Python utilities.
 """
 
 from .messages import ObjectSegment, ObjectSegmentList
 
 __all__ = ['ObjectSegment', 'ObjectSegmentList']
+
