@@ -1,0 +1,5 @@
+sensor_msgs/Image image
+---
+ObjectSceneGraph[] scene_graphs
+bool success
+string error_message
